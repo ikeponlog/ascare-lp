@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ASCare Learning | 外国人材教育プラットフォーム</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">本文へスキップ</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#hero" class="logo" aria-label="ASCare Learning トップへ">
+      <span class="logo-badge">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M9 1.5L15.5 4.5V9C15.5 12.5 12.7 15.4 9 16.5C5.3 15.4 2.5 12.5 2.5 9V4.5L9 1.5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+          <path d="M6.2 9.1L8.2 11.1L11.9 7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <span class="logo-text">ASCare Learning</span>
+    </a>
+
+    <nav class="main-nav" aria-label="メインナビゲーション">
+      <a href="#solution" class="nav-link">サービス概要</a>
+      <a href="#problem" class="nav-link">課題</a>
+      <a href="#features" class="nav-link">機能</a>
+      <a href="#benefits" class="nav-link">導入メリット</a>
+      <a href="#faq" class="nav-link">FAQ</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#cta" class="btn btn-primary btn-sm">資料請求</a>
+      <a href="#" class="btn btn-outline btn-sm">ログイン</a>
+      <button class="nav-toggle" id="navToggle" aria-label="メニューを開く" aria-expanded="false" aria-controls="mobileNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#solution" class="nav-link">サービス概要</a>
+    <a href="#problem" class="nav-link">課題</a>
+    <a href="#features" class="nav-link">機能</a>
+    <a href="#benefits" class="nav-link">導入メリット</a>
+    <a href="#faq" class="nav-link">FAQ</a>
+    <div class="mobile-nav-actions">
+      <a href="#cta" class="btn btn-primary btn-sm">資料請求</a>
+      <a href="#" class="btn btn-outline btn-sm">ログイン</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="pill reveal" data-reveal>介護施設・登録支援機関・外国人材教育事業者向け</p>
+        <h1 class="hero-title reveal" data-reveal data-reveal-delay="1">
+          日本語も、介護も、学習管理も。<br>
+          外国人材教育を<br>
+          ひとつのプラットフォームで。
+        </h1>
+        <p class="hero-lead reveal" data-reveal data-reveal-delay="2">
+          日本語学習・介護教育・動画教材・学習管理をひとつにつなぎ、外国人スタッフの成長と定着を支援する法人向け教育プラットフォーム。
+        </p>
+        <div class="hero-actions reveal" data-reveal data-reveal-delay="3">
+          <a href="#cta" class="btn btn-primary btn-lg">資料請求・お問い合わせ</a>
+          <a href="#solution" class="btn btn-outline btn-lg">サービス概要を見る</a>
+        </div>
+        <p class="hero-note reveal" data-reveal data-reveal-delay="4">※ 初期CVは法人向け問い合わせ / 資料請求。ログインは既存顧客導線としてヘッダー配置。</p>
+      </div>
+
+      <div class="hero-visual reveal" data-reveal data-reveal-delay="2">
+        <div class="visual-card float-anim">
+          <div class="dash-mock">
+            <div class="dash-header">
+              <span class="dash-dot"></span><span class="dash-dot"></span><span class="dash-dot"></span>
+            </div>
+            <div class="dash-row">
+              <div class="dash-chart">
+                <div class="bar" style="--h:38%"></div>
+                <div class="bar" style="--h:62%"></div>
+                <div class="bar" style="--h:48%"></div>
+                <div class="bar" style="--h:80%"></div>
+                <div class="bar" style="--h:56%"></div>
+              </div>
+              <div class="dash-list">
+                <span class="dash-list-item"></span>
+                <span class="dash-list-item"></span>
+                <span class="dash-list-item"></span>
+                <span class="dash-list-item"></span>
+              </div>
+            </div>
+            <div class="dash-table">
+              <span class="table-line" style="--w:100%"></span>
+              <span class="table-line" style="--w:90%"></span>
+              <span class="table-line" style="--w:80%"></span>
+            </div>
+          </div>
+          <div class="mobile-mock">
+            <div class="mobile-screen"></div>
+          </div>
+          <p class="visual-caption">管理者：進捗管理 / 学習者：スマホ学習</p>
+          <div class="visual-pills">
+            <span class="pill pill-sm">日本語</span>
+            <span class="pill pill-sm">介護教育</span>
+            <span class="pill pill-sm">動画教材</span>
+            <span class="pill pill-sm">学習管理</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST -->
+  <section class="trust">
+    <div class="container">
+      <h2 class="trust-title reveal" data-reveal>ASCareの介護事業・外国人材教育アセットを活用した新規教育プラットフォーム</h2>
+      <ul class="trust-list">
+        <li class="trust-item reveal" data-reveal data-reveal-delay="0">介護事業の知見</li>
+        <li class="trust-item reveal" data-reveal data-reveal-delay="1">日本語教材開発</li>
+        <li class="trust-item reveal" data-reveal data-reveal-delay="2">多言語展開予定</li>
+        <li class="trust-item reveal" data-reveal data-reveal-delay="3">介護福祉士対策</li>
+        <li class="trust-item reveal" data-reveal data-reveal-delay="4">法人向け管理</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="section" id="problem">
+    <div class="container">
+      <p class="kicker reveal" data-reveal>PROBLEM</p>
+      <h2 class="section-title reveal" data-reveal>外国人材の教育、現場任せになっていませんか？</h2>
+      <p class="section-lead reveal" data-reveal>採用後の日本語・介護教育・定着支援は、現場負担が大きく、属人化しやすい領域です。</p>
+
+      <div class="card-grid card-grid-2">
+        <article class="info-card reveal" data-reveal>
+          <span class="icon-tile">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 19V6a2 2 0 0 1 2-2h9l5 5v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </span>
+          <div class="info-card-body">
+            <h3>日本語教育まで手が回らない</h3>
+            <p>業務指導に加え、日本語や介護専門用語まで教える負担が大きい。</p>
+          </div>
+        </article>
+        <article class="info-card reveal" data-reveal data-reveal-delay="1">
+          <span class="icon-tile">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3 3 7.5 12 12l9-4.5L12 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M6 10.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-5.5" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </span>
+          <div class="info-card-body">
+            <h3>教育品質がばらつく</h3>
+            <p>担当者ごとに教え方が異なり、教育内容が標準化しにくい。</p>
+          </div>
+        </article>
+        <article class="info-card reveal" data-reveal data-reveal-delay="2">
+          <span class="icon-tile">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 20V10M10 20V4M16 20v-7M20 20H4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <div class="info-card-body">
+            <h3>学習進捗が見えない</h3>
+            <p>誰が何をどこまで学んだか把握できず、定着支援に活かしづらい。</p>
+          </div>
+        </article>
+        <article class="info-card reveal" data-reveal data-reveal-delay="3">
+          <span class="icon-tile">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 15a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z" stroke="currentColor" stroke-width="1.6"/><path d="M8.5 14 6 21l6-3 6 3-2.5-7" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </span>
+          <div class="info-card-body">
+            <h3>資格・キャリア支援が難しい</h3>
+            <p>介護福祉士試験や在留資格変更までの継続支援が設計しづらい。</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTION -->
+  <section class="section section-alt-white" id="solution">
+    <div class="container">
+      <p class="kicker reveal" data-reveal>SOLUTION</p>
+      <h2 class="section-title reveal" data-reveal>日本語・介護教育・学習管理を、ひとつの仕組みに。</h2>
+      <p class="section-lead reveal" data-reveal>ASCareの教育プラットフォームは、学習者の学びやすさと、法人担当者の管理しやすさを両立します。</p>
+
+      <div class="diagram reveal" data-reveal data-reveal-delay="1">
+        <svg class="diagram-lines" viewBox="0 0 1200 440" preserveAspectRatio="none" aria-hidden="true">
+          <path class="diagram-line" d="M500 100 C 610 100, 610 240, 630 260" />
+          <path class="diagram-line" d="M700 100 C 590 100, 590 240, 570 260" />
+          <path class="diagram-line" d="M500 330 C 610 330, 610 280, 630 260" />
+          <path class="diagram-line" d="M700 330 C 590 330, 590 280, 570 260" />
+        </svg>
+
+        <div class="diagram-node node-tl">
+          <h4>日本語学習アプリ</h4>
+          <p>音声学習 / 教材連動</p>
+        </div>
+        <div class="diagram-node node-tr">
+          <h4>オンライン授業</h4>
+          <p>講師による継続支援</p>
+        </div>
+        <div class="diagram-node node-bl">
+          <h4>動画管理 LMS</h4>
+          <p>介護・生活・制度</p>
+        </div>
+        <div class="diagram-node node-br">
+          <h4>特定技能管理</h4>
+          <p>進捗・人材管理</p>
+        </div>
+
+        <div class="diagram-center pulse-anim">
+          <h3>ASCare Education Platform</h3>
+          <p>一つのIDで学習・授業・動画・管理にアクセス</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUE CHAIN -->
+  <section class="section" id="value-chain">
+    <div class="container">
+      <p class="kicker reveal" data-reveal>VALUE CHAIN</p>
+      <h2 class="section-title reveal" data-reveal>採用後の教育から定着・資格取得支援まで。</h2>
+      <p class="section-lead reveal" data-reveal>採用後に必要な教育プロセスを段階化し、法人担当者が管理しやすい形で提供します。</p>
+
+      <div class="value-chain-steps">
+        <div class="chain-numbers" aria-hidden="true">
+          <span class="chain-num">1</span>
+          <span class="chain-arrow">→</span>
+          <span class="chain-num">2</span>
+          <span class="chain-arrow">→</span>
+          <span class="chain-num">3</span>
+          <span class="chain-arrow">→</span>
+          <span class="chain-num">4</span>
+          <span class="chain-arrow">→</span>
+          <span class="chain-num">5</span>
+          <span class="chain-arrow">→</span>
+          <span class="chain-num">6</span>
+        </div>
+        <ol class="chain-cards">
+          <li class="step-card reveal" data-reveal data-reveal-delay="0"><p class="step-title">日本語基礎学習</p></li>
+          <li class="chain-gap" aria-hidden="true"></li>
+          <li class="step-card reveal" data-reveal data-reveal-delay="1"><p class="step-title">介護現場で使う日本語</p></li>
+          <li class="chain-gap" aria-hidden="true"></li>
+          <li class="step-card reveal" data-reveal data-reveal-delay="2"><p class="step-title">動画による介護知識学習</p></li>
+          <li class="chain-gap" aria-hidden="true"></li>
+          <li class="step-card reveal" data-reveal data-reveal-delay="3"><p class="step-title">オンライン授業</p></li>
+          <li class="chain-gap" aria-hidden="true"></li>
+          <li class="step-card reveal" data-reveal data-reveal-delay="4"><p class="step-title">学習進捗管理</p></li>
+          <li class="chain-gap" aria-hidden="true"></li>
+          <li class="step-card reveal" data-reveal data-reveal-delay="5"><p class="step-title">資格取得・定着支援</p></li>
+        </ol>
+      </div>
+
+      <p class="value-chain-note reveal" data-reveal>採用後教育 → 学習管理 → 定着支援の流れを、ひとつのプラットフォームで一気通貫にサポートします。</p>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section section-alt-white" id="features">
+    <div class="container">
+      <p class="kicker reveal" data-reveal>FEATURES</p>
+      <h2 class="section-title reveal" data-reveal>プラットフォームを構成する主なサービス</h2>
+      <p class="section-lead reveal" data-reveal>機能名を羅列せず、法人側の課題解決に変換して見せる。</p>
+
+      <div class="card-grid card-grid-3">
+        <article class="feature-card reveal" data-reveal data-reveal-delay="0">
+          <span class="icon-tile">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 5.5a1.5 1.5 0 0 1 1.5-1.5H12v16H5.5A1.5 1.5 0 0 1 4 18.5v-13Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M20 5.5A1.5 1.5 0 0 0 18.5 4H12v16h6.5a1.5 1.5 0 0 0 1.5-1.5v-13Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>日本語学習アプリ</h3>
+          <p>サクサク日本語と連動し、音声学習にも対応。すきま時間にスマホで学べる。</p>
+        </article>
+        <article class="feature-card reveal" data-reveal data-reveal-delay="1">
+          <span class="icon-tile">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="12" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="m10 9 4 2.2-4 2.2V9Z" fill="currentColor"/></svg>
+          </span>
+          <h3>オンラインレッスン</h3>
+          <p>講師による継続学習支援。グループ授業や法人単位の運用に対応予定。</p>
+        </article>
+        <article class="feature-card reveal" data-reveal data-reveal-delay="2">
+          <span class="icon-tile">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="13" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 20h8M12 17v3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </span>
+          <h3>動画教材 / LMS</h3>
+          <p>介護技術・日本生活・制度理解などをオンデマンドで学習。</p>
+        </article>
+        <article class="feature-card reveal" data-reveal data-reveal-delay="3">
+          <span class="icon-tile">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 19V6a2 2 0 0 1 2-2h6l6 6v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="m8.5 13 2.2 2.2L15.5 10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>LMS / 学習管理</h3>
+          <p>法人担当者が学習状況や進捗を確認できる管理機能。</p>
+        </article>
+        <article class="feature-card reveal" data-reveal data-reveal-delay="4">
+          <span class="icon-tile">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3 3 7.5v6C3 17.5 6.6 21 12 22c5.4-1 9-4.5 9-8.5v-6L12 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>介護福祉士対策</h3>
+          <p>資格取得・在留資格「介護」への変更まで見据えた学習支援。</p>
+        </article>
+        <article class="feature-card reveal" data-reveal data-reveal-delay="5">
+          <span class="icon-tile">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M3 12a9 9 0 1 0 18 0 9 9 0 0 0-18 0Z" stroke="currentColor" stroke-width="1.6"/><path d="M3 12h18M12 3a13 13 0 0 1 0 18M12 3a13 13 0 0 0 0 18" stroke="currentColor" stroke-width="1.6"/></svg>
+          </span>
+          <h3>多言語展開予定</h3>
+          <p>インドネシア語に加え、ミャンマー・ベトナム版も展開予定。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section class="section" id="benefits">
+    <div class="container">
+      <p class="kicker reveal" data-reveal>BENEFITS</p>
+      <h2 class="section-title reveal" data-reveal>法人導入で期待できること</h2>
+      <p class="section-lead reveal" data-reveal>教育の標準化、現場負担の軽減、定着・成長支援までを見える化します。</p>
+
+      <div class="card-grid card-grid-2">
+        <article class="info-card reveal" data-reveal data-reveal-delay="0">
+          <span class="icon-tile">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-4.4-9.5-9C1 8.3 2.7 5 6 5c2 0 3.4 1.1 4 2.3.6-1.2 2-2.3 4-2.3 3.3 0 5 3.3 3.5 7-2.5 4.6-9.5 9-9.5 9Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </span>
+          <div class="info-card-body">
+            <h3>教育の属人化を防ぐ</h3>
+            <p>共通教材・カリキュラムにより、施設や担当者ごとの教育差を抑える。</p>
+          </div>
+        </article>
+        <article class="info-card reveal" data-reveal data-reveal-delay="1">
+          <span class="icon-tile">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="12" r="3.2" stroke="currentColor" stroke-width="1.6"/></svg>
+          </span>
+          <div class="info-card-body">
+            <h3>現場教育の負担を軽減</h3>
+            <p>基礎学習をオンライン化し、現場は実践指導に集中しやすくする。</p>
+          </div>
+        </article>
+        <article class="info-card reveal" data-reveal data-reveal-delay="2">
+          <span class="icon-tile">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 20V10M10 20V4M16 20v-7M20 20H4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <div class="info-card-body">
+            <h3>学習状況を見える化</h3>
+            <p>進捗を把握し、個別フォローや配置・育成判断に活かせる。</p>
+          </div>
+        </article>
+        <article class="info-card reveal" data-reveal data-reveal-delay="3">
+          <span class="icon-tile">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-4.4-9.5-9C1 8.3 2.7 5 6 5c2 0 3.4 1.1 4 2.3.6-1.2 2-2.3 4-2.3 3.3 0 5 3.3 3.5 7-2.5 4.6-9.5 9-9.5 9Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="m9 11.5 2 2 3.5-3.8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <div class="info-card-body">
+            <h3>定着率向上に貢献</h3>
+            <p>学習・資格取得・キャリア支援を継続し、働き続けやすい環境をつくる。</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECOMMENDED -->
+  <section class="section section-alt-white">
+    <div class="container">
+      <p class="kicker reveal" data-reveal>RECOMMENDED</p>
+      <h2 class="section-title reveal" data-reveal>こんな法人・事業者におすすめです</h2>
+      <p class="section-lead reveal" data-reveal>初期ターゲットを明確にし、商談対象が自分ごと化できる導線にします。</p>
+
+      <div class="recommend-grid">
+        <div class="recommend-card reveal" data-reveal data-reveal-delay="0">外国人介護人材を受け入れている施設</div>
+        <div class="recommend-card reveal" data-reveal data-reveal-delay="1">これから特定技能人材を受け入れたい法人</div>
+        <div class="recommend-card reveal" data-reveal data-reveal-delay="2">教育体制を整えたい登録支援機関</div>
+        <div class="recommend-card reveal" data-reveal data-reveal-delay="3">日本語教育と介護教育をまとめて提供したい人材紹介会社</div>
+        <div class="recommend-card reveal" data-reveal data-reveal-delay="4">外国人スタッフの定着率を高めたい事業者</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- USE CASE -->
+  <section class="section">
+    <div class="container">
+      <p class="kicker reveal" data-reveal>USE CASE</p>
+      <h2 class="section-title reveal" data-reveal>導入後の利用イメージ</h2>
+      <p class="section-lead reveal" data-reveal>導入前後の業務変化を分かりやすく提示します。</p>
+
+      <div class="before-after-grid">
+        <div class="ba-box ba-before reveal" data-reveal>
+          <h3>導入前</h3>
+          <ul>
+            <li>教育担当者が個別に指導</li>
+            <li>進捗確認は口頭・紙・Excel</li>
+            <li>教材がバラバラ</li>
+            <li>学習継続が本人任せ</li>
+          </ul>
+        </div>
+        <div class="ba-box ba-after reveal" data-reveal data-reveal-delay="1">
+          <h3>導入後</h3>
+          <ul>
+            <li>アプリ・動画・授業で体系的に学習</li>
+            <li>管理画面で進捗を確認</li>
+            <li>教育内容を標準化</li>
+            <li>資格取得や定着支援まで継続</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICE -->
+  <section class="section section-alt-white">
+    <div class="container">
+      <p class="kicker reveal" data-reveal>PRICE</p>
+      <h2 class="section-title reveal" data-reveal>料金・プラン</h2>
+      <p class="section-lead reveal" data-reveal>現時点では詳細料金が未整備のため、法人規模・利用人数に応じた個別提案として設計します。</p>
+
+      <div class="price-panel reveal" data-reveal data-reveal-delay="1">
+        <div class="price-panel-copy">
+          <h3>法人規模・利用人数に応じてご提案します</h3>
+          <p>利用人数、オンライン授業の有無、教材・LMS・動画教材の利用範囲に応じて、最適なプランをご提案します。初期フェーズでは問い合わせ・商談で詳細をご案内。</p>
+        </div>
+        <a href="#cta" class="btn btn-primary btn-lg">料金について相談する</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLOW -->
+  <section class="section">
+    <div class="container">
+      <p class="kicker reveal" data-reveal>FLOW</p>
+      <h2 class="section-title reveal" data-reveal>導入までの流れ</h2>
+      <p class="section-lead reveal" data-reveal>未整備の申込後フローは、LP上では仮説導線として分かりやすく提示します。</p>
+
+      <div class="card-grid card-grid-3">
+        <article class="flow-card reveal" data-reveal data-reveal-delay="0"><span class="flow-num">01</span><p>お問い合わせ</p></article>
+        <article class="flow-card reveal" data-reveal data-reveal-delay="1"><span class="flow-num">02</span><p>ヒアリング</p></article>
+        <article class="flow-card reveal" data-reveal data-reveal-delay="2"><span class="flow-num">03</span><p>ご提案・お見積り</p></article>
+        <article class="flow-card reveal" data-reveal data-reveal-delay="3"><span class="flow-num">04</span><p>アカウント発行</p></article>
+        <article class="flow-card reveal" data-reveal data-reveal-delay="4"><span class="flow-num">05</span><p>学習開始</p></article>
+        <article class="flow-card reveal" data-reveal data-reveal-delay="5"><span class="flow-num">06</span><p>進捗確認・継続支援</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section-alt-white" id="faq">
+    <div class="container">
+      <p class="kicker reveal" data-reveal>FAQ</p>
+      <h2 class="section-title reveal" data-reveal>よくあるご質問</h2>
+      <p class="section-lead reveal" data-reveal>導入前の不安を事前に解消し、問い合わせの心理的ハードルを下げます。</p>
+
+      <div class="faq-list">
+        <div class="faq-row reveal" data-reveal data-reveal-delay="0">
+          <button class="faq-question" aria-expanded="false">
+            <span>Q. 何名から利用できますか？</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer"><p>1名から法人単位でのご利用まで対応しています。まずはご利用人数と体制を伺い、最適なプランをご提案します。</p></div>
+        </div>
+        <div class="faq-row reveal" data-reveal data-reveal-delay="1">
+          <button class="faq-question" aria-expanded="false">
+            <span>Q. 介護以外の業種にも対応していますか？</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer"><p>現在は介護業界に特化して提供していますが、教材・LMS基盤は他業種にも展開可能な設計です。詳しくはお問い合わせください。</p></div>
+        </div>
+        <div class="faq-row reveal" data-reveal data-reveal-delay="2">
+          <button class="faq-question" aria-expanded="false">
+            <span>Q. スマホやタブレットで利用できますか？</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer"><p>はい。学習者向けアプリはスマートフォン・タブレットに対応しており、すきま時間での学習に適しています。</p></div>
+        </div>
+        <div class="faq-row reveal" data-reveal data-reveal-delay="3">
+          <button class="faq-question" aria-expanded="false">
+            <span>Q. オンライン授業だけの利用はできますか？</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer"><p>可能です。日本語学習アプリ・動画教材・LMSは組み合わせ自由なので、必要な機能だけを選んでご利用いただけます。</p></div>
+        </div>
+        <div class="faq-row reveal" data-reveal data-reveal-delay="4">
+          <button class="faq-question" aria-expanded="false">
+            <span>Q. 管理画面では何が確認できますか？</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer"><p>学習者ごとの進捗状況、教材の受講状況、テスト結果などを一覧で確認でき、個別フォローに活用いただけます。</p></div>
+        </div>
+        <div class="faq-row reveal" data-reveal data-reveal-delay="5">
+          <button class="faq-question" aria-expanded="false">
+            <span>Q. 請求書払いはできますか？</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer"><p>法人のお客様は請求書払いに対応しています。詳細なお支払い条件はお問い合わせ時にご案内します。</p></div>
+        </div>
+        <div class="faq-row reveal" data-reveal data-reveal-delay="6">
+          <button class="faq-question" aria-expanded="false">
+            <span>Q. 無料体験や教材サンプルはありますか？</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer"><p>教材サンプルのご提供が可能です。お問い合わせフォームよりご希望の旨をお知らせください。</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" id="cta">
+    <div class="container">
+      <div class="cta-card reveal" data-reveal>
+        <div class="cta-text">
+          <h2>外国人材教育の仕組みづくりを、<br>まずはご相談ください。</h2>
+          <p>サービス資料、導入相談、教材サンプルの確認など、法人様の課題に合わせてご案内します。</p>
+        </div>
+        <div class="cta-actions">
+          <a href="#" class="btn btn-white btn-lg">資料請求・お問い合わせ</a>
+          <a href="#" class="btn btn-ghost btn-lg">法人導入について相談する</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <a href="#hero" class="logo">
+      <span class="logo-badge">
+        <svg width="16" height="16" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M9 1.5L15.5 4.5V9C15.5 12.5 12.7 15.4 9 16.5C5.3 15.4 2.5 12.5 2.5 9V4.5L9 1.5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <span class="logo-text">ASCare Learning</span>
+    </a>
+    <div class="footer-links">
+      <nav class="footer-nav" aria-label="フッターナビゲーション">
+        <a href="#solution">サービス概要</a>
+        <a href="#features">機能</a>
+        <a href="#benefits">導入メリット</a>
+        <a href="#faq">FAQ</a>
+        <a href="#cta">資料請求</a>
+        <a href="#">ログイン</a>
+      </nav>
+      <p class="footer-policy">利用規約 / プライバシーポリシー / 特商法表記</p>
+    </div>
+    <p class="footer-copy">© ASCare. Wireframe draft for B2B education platform service site.</p>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="ページ先頭へ戻る">
+  <svg viewBox="0 0 24 24" fill="none" width="18" height="18"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
